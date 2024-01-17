@@ -1,0 +1,55 @@
+.center {
+  padding-right: calc(50% - 600px);
+  padding-left: calc(50% - 600px);
+}
+
+h1 {
+  text-align: center;
+}
+
+.item {
+  border: 1px solid grey;
+  margin: 20px 0 0;
+  background-color: #cbc8c8;
+  border-radius: 16px;
+}
+
+.object_title {
+  text-align: center;
+}
+.object_title:hover {
+  color: rgb(44, 23, 164);
+}
+
+.info {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  font-size: 20px;
+}
+
+.btn {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  font-size: 20px;
+}
+
+.btn_item {
+  padding: 10px 30px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.btn_item:hover {
+  background-color:rgb(147, 199, 50);
+  
+}
+.btn_out:hover {
+  background-color:rgb(207, 75, 39);
+  
+}
